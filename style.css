@@ -1,0 +1,84 @@
+
+:root{
+    --color-white: #fff;
+    --color-dark1: #272727;
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-purple: #55805F;
+}
+body{
+    background-color: var(--color-dark1);
+    color: var(--color-white);
+    font-family: 'Inter', sans-serif;
+}
+/*header*/
+
+#header p{
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+    margin: auto;
+    padding:auto;
+    
+}
+#header{
+    margin: auto;
+    padding:auto;
+    display: flex;
+
+    background-color: var(--color-dark2);
+    height: 103px;
+    padding: 0%;
+    box-shadow: 1px 1px 4px var(--color-dark4);
+   
+   
+}
+/*header*/
+
+/*main*/
+
+#text {
+    margin-top: 41px;
+    margin-bottom: 480px;
+    margin-right: 555px;
+    margin-left: 74px;
+
+    height: 500px;
+    width: 901px;
+    
+    font-size: 33px;
+    font-weight: 600;
+}
+
+#profile-pic img {
+    display: flex;
+    height: 500px;    
+    margin: auto;
+    background-blend-mode: luminosity;
+}
+
+/*main*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
