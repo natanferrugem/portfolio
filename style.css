@@ -9,6 +9,8 @@
     --color-purple: #55805F;
 }
 body{
+    width: auto;
+    height: auto;
     background-color: var(--color-dark1);
     color: var(--color-white);
     font-family: 'Inter', sans-serif;
@@ -38,31 +40,37 @@ body{
 /*header*/
 
 /*main*/
-
+main{
+    display: flex;
+    flex-direction: row;
+}
 #text {
-    margin-top: 41px;
-    margin-bottom: 480px;
-    margin-right: 555px;
-    margin-left: 74px;
+    width: 811px;
 
-    height: 500px;
-    width: 901px;
-    
-    font-size: 33px;
-    font-weight: 600;
+    margin-left: 74px;
+    margin-top: 32px;
+
+    font-size: 24px;
+    font-weight: 600px;
 }
 
 #profile-pic img {
-    display: flex;
     height: 500px;    
-    margin: auto;
     background-blend-mode: luminosity;
+
+    margin-left: 32px;
+    margin-top: 32px;
 }
 
 
 /*main*/
 
-
+@media (max-width:780px)
+{
+    #header{
+     
+    }
+}
 
 
 
