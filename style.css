@@ -60,6 +60,10 @@ main {
   font-size: 24px;
   font-weight: 600px;
 }
+#logos a{
+  text-decoration: none;
+}
+
 
 #profile-pic img {
   height: 400px;
