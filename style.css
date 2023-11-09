@@ -55,7 +55,7 @@ main{
 }
 
 #profile-pic img {
-    height: 500px;    
+    height: 400px;    
     background-blend-mode: luminosity;
 
     margin-left: 32px;
@@ -63,13 +63,38 @@ main{
 }
 
 
+
+
+
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: row;
+}
+#footer{
+    font-size: 30px;
+    margin-left: 74px;
+   
+}
+#footer-imgs img{
+    width: 117.809px;
+    height: 113px;
+    flex-shrink: 0;
+
+    margin-left: 74px;
+    border-spacing: 16px;
+
+
+    
+    background-blend-mode: luminosity;
+}
+
 /*main*/
 
 @media (max-width:780px)
 {
-    #header{
-     
-    }
+   
 }
 
 
