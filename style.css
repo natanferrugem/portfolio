@@ -34,7 +34,9 @@ body {
   font-family: Inter;
 }
 #header {
-  margin: auto;
+  margin: 0;
+  
+  
   padding: auto;
   display: flex;
 
@@ -63,7 +65,17 @@ main {
 #logos a{
   text-decoration: none;
 }
+#logos  a:hover img{
 
+    opacity: 0.4;
+  }
+  
+#logos img{
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
 
 #profile-pic img {
   height: 400px;
@@ -98,6 +110,10 @@ footer {
 }
 #footer-specific{
   display: flex;
+}
+#footer-specific2{
+
+  font-size: 24px;
 }
 #footer-specific p{
   margin-left: 500px;
