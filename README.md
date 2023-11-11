@@ -1,3 +1,3 @@
-# portifolio 🗞️
+# portfolio 🗞️
 
-<a href="https://natanferrugem.github.io/portifolio/">PORTIFOLIO </a>
+<a href="https://natanferrugem.github.io/portifolio/">PORTFOLIO </a>
