@@ -61,7 +61,7 @@ main {
 
 #back-logo img{
   margin-top: 50px;
-  margin-left: 650px;
+  margin-left: 600px;
   position: absolute;
   height: 400px;
 }
@@ -70,7 +70,7 @@ main {
   height: 450px;
   background-blend-mode: luminosity;
   
-  margin-left: 150px;
+  margin-left: 100px;
   margin-top: 32px;
 }
 
@@ -92,7 +92,7 @@ main {
   text-align: right;
   margin-right: 90px;
   margin-top: 240px;
-  margin-left: 550px;
+  margin-left: 500px;
   position: absolute;
 
 }
