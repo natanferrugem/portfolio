@@ -130,13 +130,26 @@ about-me{
   margin: auto;
   padding: auto;
 }
+#about-me h1{
+  margin-left: 74px;
+  margin-top: 200px;
+  margin-right: 60px;
+
+  font-size: 40px;
+  text-align: center;
+
+  background-color: var(--color-dark2);
+  border-radius: 50px;
+  
+}
 
 #about-me p{
   margin-left: 74px;
-  margin-top: 200px;
-  padding: auto;
-  font-size: 30px;
+  margin-top: 0px;
+  margin-right: 70px;
 
+  font-size: 30px;
+  text-align: left;
 }
 
 
