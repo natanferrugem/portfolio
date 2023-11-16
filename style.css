@@ -37,21 +37,21 @@ header{
 #header h1{
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-left: 90px;
-  margin-top: 10px;
   font-size: 35px;
 }
 
 #header p{
-  word-spacing: 24px;
+  word-spacing: 34px;
   font-size: 26px;
-  margin-left: 700px;
+  margin-left: 690px;
 }
 
 /*header*/
 
 
 /*low-header*/
-main {
+
+low-header {
   display: flex;
   flex-direction: row;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -65,28 +65,32 @@ main {
   position: absolute;
   height: 400px;
 }
-
+#profile-pic{
+  margin-top: 10px;
+  padding: auto;
+}
 #profile-pic img {
   height: 450px;
   background-blend-mode: luminosity;
   
   margin-left: 100px;
   margin-top: 32px;
+  
 }
 
 #hand-shake{
+  height: 100px;
+  width: 100px;
+  margin-left: 470px;
+  margin-top: 72px;
+
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-blend-mode: luminosity;
   position: absolute;
-  margin-left: 490px;
-  margin-top: 52px;
-  height: 100px;
-  width: 100px;
 }
-
-
-
-
+#hand-shake img{
+  height: 80px;
+}
 
 #text{
   text-align: right;
@@ -115,10 +119,25 @@ main {
 
 }
 
-
-
 /* low-header */
-/* main*/
+
+/* about-me*/
+
+about-me{
+  display: flex;
+  flex-direction: row;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  padding: auto;
+}
+
+#about-me p{
+  margin-left: 74px;
+  margin-top: 200px;
+  padding: auto;
+  font-size: 30px;
+
+}
 
 
 
@@ -126,8 +145,7 @@ main {
 
 
 
-
-/* main*/
+/* about-me*/
 
 
 
